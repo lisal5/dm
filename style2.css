@@ -1,0 +1,89 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "poppins";
+    
+   
+
+}
+.text{
+    line-height: 30px;
+    text-align: justify;
+    overflow: hidden;
+    position: absolute;
+    left: 15%;
+    top: 8%;
+    right: 5%;
+    
+
+}
+h1{
+    text-decoration: underline;
+    color: rgb(20, 96, 99);
+    position: absolute;
+    left: 40%;
+}
+
+
+nav {
+    line-height: 60px;
+    position: absolute;
+    top: 6%;
+    width: 200px;
+    background-color: rgb(130, 233, 224);
+}
+
+nav a,
+nav button{
+    color: rgb(26, 15, 15);
+    margin: 0 20px;
+    font-size: 1.3em;
+}
+nav button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flexbox;
+  
+}
+nav .meunu-contact {
+    position: relative;
+}
+nav .meunu-contact .content{
+    display: none; 
+}
+nav .meunu-contact:hover .content{
+    display: block;
+    display: flex;
+    flex-direction: column ;
+    position: inherit;
+    background-color: rgb(9, 97, 97);
+    left: 195px;
+    top: -60px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    width: 200px;
+        
+}
+nav  .content a{
+    color: black;
+}
+div a {
+    position: inherit;
+    width: 198px;
+    left: -30px;
+}
+li:hover{
+    border-left: 5px solid rgb(9, 97, 97);
+    background-color: RGBa(228, 77,38,0.15);
+
+
+}
+div a:hover{
+    border-left: 2px solid #1b1412 ;
+    background-color: RGBa( 81,77,87.15);
+
+}
